@@ -31,4 +31,4 @@ jobs:
         
           # Runs a set of commands using the runners shell
         - name: Run postman test 
-          run: newman run postmanfiles/Books.postman_collection.json -e postmanfiles/prod.postman_environment.json
+          run: newman run postman_tests\Books.postman_collection.json -e postman_tests\test.postman_environment.json
